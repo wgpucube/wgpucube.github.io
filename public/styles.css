@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    background: #ffffff;
-    color: #333333;
+    background: #000000;
 }
 
-main {
-    text-align: center;
-    padding-top: 3rem;
-}
-
-h1 {
-    font-size: 3rem;
-    font-weight: 300;
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
