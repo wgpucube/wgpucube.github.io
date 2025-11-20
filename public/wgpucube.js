@@ -227,10 +227,6 @@ function makeMutClosure(arg0, arg1, dtor, f) {
     CLOSURE_DTORS.register(real, state, state);
     return real;
 }
-function wasm_bindgen__convert__closures_____invoke__h270e774e62b586ab(arg0, arg1, arg2) {
-    wasm.wasm_bindgen__convert__closures_____invoke__h270e774e62b586ab(arg0, arg1, arg2);
-}
-
 function wasm_bindgen__convert__closures_____invoke__h2ece9ba5e832bb27(arg0, arg1, arg2) {
     wasm.wasm_bindgen__convert__closures_____invoke__h2ece9ba5e832bb27(arg0, arg1, arg2);
 }
@@ -241,6 +237,10 @@ function wasm_bindgen__convert__closures_____invoke__h9767c7ef731fa2f8(arg0, arg
 
 function wasm_bindgen__convert__closures_____invoke__hc8d015d51d5393ed(arg0, arg1, arg2, arg3) {
     wasm.wasm_bindgen__convert__closures_____invoke__hc8d015d51d5393ed(arg0, arg1, arg2, arg3);
+}
+
+function wasm_bindgen__convert__closures_____invoke__h270e774e62b586ab(arg0, arg1, arg2) {
+    wasm.wasm_bindgen__convert__closures_____invoke__h270e774e62b586ab(arg0, arg1, arg2);
 }
 
 const __wbindgen_enum_GpuBlendFactor = ["zero", "one", "src", "one-minus-src", "src-alpha", "one-minus-src-alpha", "dst", "one-minus-dst", "dst-alpha", "one-minus-dst-alpha", "src-alpha-saturated", "constant", "one-minus-constant", "src1", "one-minus-src1", "src1-alpha", "one-minus-src1-alpha"];
